@@ -8,3 +8,5 @@ function generatePassword(length) {
   return password;
 }
 
+var newPass = generatePassword(6);
+console.log(newPass); // This will print a password of 6 chars
